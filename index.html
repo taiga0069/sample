@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progate風</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+   <header>
+    <div class="container">
+        <div class="header-left">
+         <img class="logo" id="top-btn" src="tg37.jpeg">
+        </div>
+
+
+       <span class="fa fa-bars menu-icon"></span>
+
+        <div class="header-right">
+          <a href="#teams">Teams</a>
+          <a href="#faq">FAQ</a>
+          <a href="#" class="login" id="login-show">ログイン</a>
+          
+        </div>
+    </div>      
+   </header>
+   <div class="signup-modal-wrapper" id="signup-modal">
+    <div class="modal">
+      <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+      <div id="signup-form">
+        <h2>Emailで新規登録</h2>
+        <form action="#">
+          <input class="form-control" type="text" placeholder="メールアドレス">
+          <input class="form-control" type="password" placeholder="パスワード">
+          <div id="submit-btn">新規登録</div> 
+        </form>
+      </div>
+    </div>
+   </div>
+
+   <div class="login-modal-wrapper" id="login-modal">
+     <div class="modal">
+       <div class="close-modal">
+         <i class="fa fa-2x fa-times"></i>
+       </div>
+      <div id="login-form">
+        <h2>Emailログイン</h2>
+        <form action="#">
+          <input class="form-control" type="text" placeholder="メールアドレス">
+          <input class="form-control" type="password" placeholder="パスワード">
+          <div id="submit-btn">ログイン</div>
+        </form>
+      </div>
+     </div>
+   </div>
+   
+
+    <div class="top-wrapper">
+      <div class="container">
+      <h1 class>O tempo é um rio </h1>
+        <h1> <span> E é feliz</span> por ser transportado sem ir<span> contra</span> a água corrente.</h1>
+        <p>時は流れる川である。流水に逆らわずに運ばれるものは幸せだ</p>
+        <p class="Chris">Christopher Morley</p>
+        <div class="btn-wrapper">
+          <div class="btn signup signup-show">新規登録</div>
+          <p>or</p>
+          <div class="btn facebook"><span class="fa fa-facebook"></span>facebookで登録</div>
+          <div class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</div>
+      </div>
+    </div>
+    <div id="teams" class="teams-wrapper">
+      <div class="containner">
+        <div class="heading">
+          <h2>Times que eu joguei</h2>
+        </div>
+        <div class="teams">
+          <div class="team team-hover">
+            <div class="team-icon">
+              <img src="seeker.jpeg" >
+              <h3 class="team-name"><nobr>Seeker FC</nobr></h3>
+            </div>
+            <p class="text-contents">2014 D2 #7</p>
+          </div>
+          <div class="team team-hover">
+            <div class="team-icon">
+              <img src="ptu.jpeg" >
+              <h3 class="team-name"><nobr>Ptu Patumthani</nobr></h3>
+            </div>
+            <p class="text-contents">2015-2016 D2 #10</p> 
+          </div>
+          <div class="team team-hover">
+            <div class="team-icon">
+              <img src="surat.jpeg" >
+              <h3 class="team-name"><nobr>Suratani City</nobr></h3>
+            </div>
+            <p class="text-contents">2017 T4 #18</p>
+          </div><br>
+          <div class="team team-hover">
+            <div class="team-icon">
+              <img src="prakan.jpeg">
+              <h3 class="team-name"><nobr>SamutPrakan FC</nobr></h3>
+              </div>
+            <p class="text-contents">2018 first leg T4 #7</p>
+          </div>
+          <div class="team team-hover">
+            <div class="team-icon">
+              <img src="kasem.jpg">
+              <h3 class="team-name"><nobr>KasemBundit FC</nobr></h3>
+            </div>
+            <p class="text-contents">2018 Second leg T3 #37</p>
+          </div>
+          <div class="team team-hover">
+            <div class="team-icon">
+              <img src="phanthong.jpeg">
+              <h3 class="team-name"><nobr>Phanthong FC</nobr></h3>
+            </div>
+            <p class="text-contents">2019 T4 #37</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div id ="faq" class="faq-wrapper">
+        <div class="container">
+          <div class="heading">
+            <h2>FAQ</h2>
+          </div>
+          <div class="faq">
+            <ul id="faq-list">
+              <li class="faq-list-item">
+                <h3 class="question">歳はいくつですか？</h3>
+                <span>+</span>
+                <div class="answer">
+                  <p>92年生まれの28歳です</p>
+                </div>
+              </li>
+              <li class="faq-list-item">
+                <h3 class="question">どこ生まれですか？</h3>
+                <span>+</span>
+                <div class="answer">
+                  <p>青森生まれ仙台育ちです</p>
+                </div>
+              </li>
+              <li class="faq-list-item">
+                <h3 class="question">好きな食べ物は何ですか？</h3>
+                <span>+</span>
+                <div class="answer">
+                  <p>ラーメンです</p>
+                </div>
+              </li>
+              <li class="faq-list-item">
+                <h3 class="question">何か国語しゃべれるんですか？</h3>
+                <span>+</span>
+                <div class="answer">
+                  <p>日本語、英語、タイ語、ポルトガル語。です</p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h3 id="tagline">大河にメッセージ</h3>
+          <p>let's talk with Taiga</p>
+        </div>
+        <div class="btn message signup-show">さっそく送る</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <img class="footer-left" src="4r.png">
+        <p class="footer-txt">Confiar sua vida</p>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  </html>
