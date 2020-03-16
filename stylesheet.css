@@ -1,0 +1,373 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  font-display: "Hiragino Kaku Gothic ProN";
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 100%;
+  padding:0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper{
+  text-align: center;
+  height: 700px;
+  background-image: url(kohchang.jpg);
+  background-size:cover;
+  margin-top: 0;
+}
+
+.top-wrapper h1{
+  font-size: 50px;
+  letter-spacing: 5px;
+  opacity:0.7;
+  font-weight:bold;
+  line-height: 60px;
+  margin:65px 0 10px 0;
+}
+
+span{
+  color:white;
+}
+
+.btn-wrapper{
+  text-align: center;
+  margin:20px 0;
+}
+
+.btn-wrapeer p{
+  margin: 10px 0;
+}
+
+.signup{
+  background-color: #239b76;
+}
+
+.facebook{
+  background-color: #3b5998;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.btn {
+  padding:8px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  border-radius: 4px;
+  text-align:center;
+  cursor: pointer;
+  
+}
+
+
+.btn:hover{
+  opacity:1;
+}
+
+.fa{
+  margin-right:5px;
+}
+
+
+
+.title {
+  color: whitesmoke ;
+  opacity:0.5;
+  text-align: center;
+}
+
+p{
+  opacity: 0.8;
+  text-align: center;
+}
+
+.Chris{
+  text-align: right;
+  margin-right:20px;
+}
+
+header{
+  height:65px;
+  width:100%;
+  background-color: rgba(34, 49, 52, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo{
+  width:40px;
+  margin-top: 20px;
+}
+
+.header-left{
+  float:left;
+
+}
+
+.header-right{
+  float:right;
+  margin-right:-25px;
+
+}
+
+.header-right a{
+  line-height: 65px;
+  padding:0 25px;
+  color:white;
+  display: block;
+  float:left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*.header-right .login{
+
+}*/
+
+.login-modal-wrapper, .signup-modal-wrapper {
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top:20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding:20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+} 
+
+.fa-times{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128,0.46);
+  cursor: pointer;
+}
+
+#signup-form, #login-form{
+  width: 100%;
+}
+
+#signup-form h2,#login-form h2{
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input,#login-form input{
+  width: 420px;
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn{
+  display: inline-block;
+  padding:14px 140px;
+  background-color: #5dca88;
+  border:none;
+  border-radius: 3px;
+  color: white;
+  margin:10px auto;
+  cursor: pointer;
+}
+
+.teams-wrapper{
+  padding-bottom:80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:rgb(98, 129, 119);
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.heading{
+  text-align: center;
+  padding-top:80px;
+  padding-bottom:50px;
+  color: #f7f7f7;;
+}
+.heading h2{
+  font-weight:normal;
+  font-size:50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.team{
+  float:left;
+  width:33%;
+  text-align: center;
+  padding:0 15px;
+}
+
+.team-icon{
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.team-name{
+  text-align: center;
+  margin-bottom: 0%;
+  font-size: 35px;
+}
+
+.team img{
+  width: 200px;
+  height: 200px;
+  padding-left:0px;
+}
+
+
+.text-contents{
+  display: inline-block;
+  margin: 3% auto;
+  font-size: 20px;
+  width: 80%;
+  color: #b3aeb6;
+  display: none;
+}
+
+.text-active{
+  display: block;
+}
+
+
+.faq-wrapper {
+  background-color: #e6ecf0;
+  text-align: center;
+  padding-bottom: 80px;
+  color: #5f5d60;
+}
+
+#faq-list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-list-item{
+  margin:10px;
+  border-bottom: 1px solid;
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+}
+
+.faq-list-item h3{
+  font-size: 14px;
+
+}
+
+.faq-list-item span{
+  position: absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+
+}
+
+.answer{
+  font-size: 12px;
+  padding:5px 0px;
+  margin-bottom: 15px;
+  display:none;
+}
+
+
+
+.message-wrapper{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.message-wrapper h3{
+  text-align: center;
+  display: inline-block;
+  color:#5f5d60;
+  margin:40px 0 0 0;
+}
+
+.message-wrapper p{
+  opacity: 0.8;
+  text-align: center;
+}
+
+.message{
+  background-color: #5dca88;
+  opacity:0.8;
+  padding:15px 40px;
+  color: white;
+  margin-top: 20px;
+  display:inline-block;
+  box-shadow:0 7px #1a7940;
+  
+}
+
+.message:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+.footer{
+  border-top:1px solid #eee;
+  padding-top: 30px;
+}
+
+.footer-left{
+  width:50px;
+  float: left;
+}
+
+.footer-txt{
+  float: left;
+  font-size: 13px;
+  padding-bottom: 30px;
+  color:#b3aeb6;
+}
+
+.menu-icon{
+  float:right;
+  display: none;
+  padding-top: 21px;
+  font-size: 25px;
+}
+
+.clear{
+  clear:left;
+}
